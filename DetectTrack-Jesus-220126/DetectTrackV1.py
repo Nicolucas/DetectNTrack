@@ -9,7 +9,7 @@ from datetime import datetime
 
 ################ Setup to make the code work on linux, ERASE TO USE IN YOUR IMPLEMENTATION
 # path 
-path = r'./'
+path = r'./Input/A.jpg'
   
 # Reading an image in default mode
 image = cv2.imread(path)
