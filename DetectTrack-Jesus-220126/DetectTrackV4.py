@@ -2,7 +2,7 @@
  # @ Author: J.N. Hayek
  # @ Create Time: 2022-01-29 10:31:20
  # @ Description: Python script to detect and track particles from a given input.
- Aims to track and detect particles on J.D. Coral's microfluidic setup.
+ Applied to track and detect particles from J.D. Coral's microfluidic setup and recording.
  Uses the CV2 library to deal with the video capturing, video output, and user input. 
  Uses Trackpy as means of particle detection and tracking using a prescribed velocity model due to the distance of particles between frames.
 '''
