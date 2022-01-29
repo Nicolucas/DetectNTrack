@@ -20,8 +20,8 @@ import trackpy as tp
 import trackpy.predict
 
 ################ Path setup
-# WOrk path 
-path = r'/home/nico/Documents/Extra/Programming/Random/Jesus-220126/'
+# Work path 
+path = r'./'
 
 cap = cv2.VideoCapture(path+"Input/mps_in_channel.mp4")
 ##########################################################################################

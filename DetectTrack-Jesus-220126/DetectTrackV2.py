@@ -14,7 +14,7 @@ from Mods.CentroidTracker import CentroidTracker
 
 ################ Setup to make the code work on linux, ERASE TO USE IN YOUR IMPLEMENTATION
 # path 
-path = r'/home/nico/Documents/Extra/Programming/Random/Jesus-220126/'
+path = r'./'
   
 mpsCascade = cv2.CascadeClassifier(path+"Input/haarcascades/haarcascade_mps.xml")
 
