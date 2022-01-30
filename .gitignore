@@ -2,3 +2,4 @@ DetectTrack-Jesus-220126/Input/*
 DetectTrack-Jesus-220126/Out/*
 DetectTrack-Jesus-220126/Mods/__pycache__/*
 *.pyc
+DetectTrack-Jesus-220126/TrackpyTest/.ipynb_checkpoints/*
