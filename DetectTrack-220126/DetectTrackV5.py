@@ -98,10 +98,8 @@ while True:
             ListDataInterest.append(PD_PartOfInterest)
             
             # Mark and label the detected particles
-            for centroid in PD_particlesInFrame[["x","y"]].to_numpy():
-                cv2.circle(img,(int(centroid[0]),int(centroid[1])), 10, (0, 0, 255), 1)
-            for centroid in PD_PartOfInterest[["x","y"]].to_numpy():
-                cv2.circle(img,(int(centroid[0]),int(centroid[1])), 10, (255, 0, 0), 1)
+            [cv2.circle(img,(int(centroid[0]),int(centroid[1])), 10, (0, 0, 255), 1) for centroid in PD_particlesInFrame[["x","y"]].to_numpy()]
+            [cv2.circle(img,(int(centroid[0]),int(centroid[1])), 10, (255, 0, 0), 1) for centroid in PD_PartOfInterest[["x","y"]].to_numpy()]
 
         else: # If the duration is larger than the set time, the CTimes counter resets
             # Velocity model used for the tracking
